@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 body {
-    background-color: rgb(218, 31, 93);
+    background-color: rgb(0, 0, 0);
     font-family: 'Ultra', sans-serif;
     margin: 0;
     padding: 0;
@@ -24,6 +24,8 @@ h1 {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     ;
+    width: 80%;
+    margin: 20px auto;
 }
 .container label {
     color: rgb(15, 15, 15);
@@ -48,6 +50,8 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center
     ;
+    width: 80%;
+    margin: 20px auto;
 }
 .container3 {
     text-indent: 50px;
@@ -62,7 +66,8 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
     text-align: center;
-    
+    width: 80%;
+    margin: 20px auto;
     
 }
 .container4 {
@@ -77,7 +82,8 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
     text-align: center;
-    
+    width: 80%;
+    margin: 20px auto;
     
 }
 .container4 button {
@@ -88,4 +94,36 @@ h1 {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+}
+#dimes-output {
+    color: rgb(58, 25, 207);
+    font-size: 20px;
+  
+    margin-top: 20px;
+}
+#nickels-output {
+    color: rgb(58, 25, 207);
+    font-size: 20px;
+  
+    margin-top: 20px;
+}
+#quarters-output {
+    color: rgb(58, 25, 207);
+    font-size: 20px;
+  
+    margin-top: 20px;
+}
+#pennies-output {
+    color: rgb(58, 25, 207);
+    font-size: 20px;
+  
+    margin-top: 20px;
+}
+#dollars-output {
+    color: rgb(58, 25, 207);
+    font-size: 20px;
+  
+    margin-top: 20px;
 }
